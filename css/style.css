@@ -52,11 +52,13 @@ nav a:hover {
 h1, h3 {
     color: white;
     font-weight: normal;
+    text-align: center;
 }
 h1 {
     font-size: 50px;
     padding-top: 5em;
     font-weight: 300;
+    
 }
 h3 {
     font-size: 25px;
@@ -83,7 +85,7 @@ section.second-section {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
-    
+    text-align: center;
 }
 
 .second-section ul {
@@ -96,17 +98,22 @@ section.second-section {
 div.icons-text h3 {
     color: black;
 }
-.second-section .iconsandtext > li {
-    float: left;
+ul.small-icons {
+   list-style: none;
+   
 }
-
+h5 {
+    text-align: center;
+    font-weight:normal;
+    font-size: 15px;
+}
 @media screen and (min-width: 768px) {
     nav ul {
         display: flex;
     }
-    /*.second-section ul {
+    .second-section ul {
         display: flex;
-    }*/
+    
     
 }
 
